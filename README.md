@@ -40,11 +40,21 @@ _Lanzamos migraciones_
 (env)$ python3 manage.py migrate
 ```
 
+_Creamos un superusuario_
+```shell
+(env)$ python manage.py createsuperuser
+```
+
 _Como último paso realizamos la ejecución del servidor_
 
 ```shell
 (env)$ python3 manage.py runserver
 ```
+
+### Listado de usuarios
+Una vez haya registrado varios usuarios, el superuser podra visualizar el listado de usuarios de esta manera. 
+
+![Untitled](coinksite/static/img/list_users.png)
 
 
 #
